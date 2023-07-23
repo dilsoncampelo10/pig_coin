@@ -15,4 +15,18 @@ class UserTest extends TestCase
 
         $response->assertRedirect('/login');
     }
+
+    /**@test */
+    public function verify_access_in_login_page():void{
+        $response = $this->get('/login');
+
+        $response->assertStatus('200');
+    }
+
+    /**@test */
+    public function verify_access_in_register_page():void{
+        $response = $this->get('/login');
+
+        $response->assertStatus('200');
+    }
 }

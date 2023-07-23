@@ -4,8 +4,51 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f7b04ff3bba8d50cb638e5dbed55b57b",
+    "content-hash": "c8fa039516b0dfd15c77b61a5b856992",
     "packages": [
+        {
+            "name": "almasaeed2010/adminlte",
+            "version": "v3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ColorlibHQ/AdminLTE.git",
+                "reference": "bd4d9c72931f1dd28601b6bfb387554a381ad540"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ColorlibHQ/AdminLTE/zipball/bd4d9c72931f1dd28601b6bfb387554a381ad540",
+                "reference": "bd4d9c72931f1dd28601b6bfb387554a381ad540",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Colorlib"
+                }
+            ],
+            "description": "AdminLTE - admin control panel and dashboard that's based on Bootstrap 4",
+            "homepage": "https://adminlte.io/",
+            "keywords": [
+                "JS",
+                "admin",
+                "back-end",
+                "css",
+                "less",
+                "responsive",
+                "template",
+                "theme",
+                "web"
+            ],
+            "support": {
+                "issues": "https://github.com/ColorlibHQ/AdminLTE/issues",
+                "source": "https://github.com/ColorlibHQ/AdminLTE/tree/v3.2.0"
+            },
+            "time": "2022-02-07T20:33:09+00:00"
+        },
         {
             "name": "brick/math",
             "version": "0.11.0",
@@ -60,6 +103,188 @@
                 }
             ],
             "time": "2023-01-15T23:15:59+00:00"
+        },
+        {
+            "name": "components/bootstrap",
+            "version": "4.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/bootstrap.git",
+                "reference": "fca56bda4c5c40cb2a163a143e8e4271a6721492"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/bootstrap/zipball/fca56bda4c5c40cb2a163a143e8e4271a6721492",
+                "reference": "fca56bda4c5c40cb2a163a143e8e4271a6721492",
+                "shasum": ""
+            },
+            "require": {
+                "components/jquery": ">=2"
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "js/bootstrap.js"
+                    ],
+                    "files": [
+                        "js/*.js",
+                        "js/*.map",
+                        "css/*.css",
+                        "css/*.map"
+                    ],
+                    "shim": {
+                        "deps": [
+                            "jquery"
+                        ]
+                    }
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                },
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "https://getbootstrap.com",
+            "keywords": [
+                "css",
+                "framework",
+                "front-end",
+                "mobile-first",
+                "responsive",
+                "sass",
+                "web"
+            ],
+            "support": {
+                "issues": "https://github.com/components/bootstrap/issues",
+                "source": "https://github.com/components/bootstrap/tree/4.6.2"
+            },
+            "time": "2022-07-29T06:50:47+00:00"
+        },
+        {
+            "name": "components/font-awesome",
+            "version": "6.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/font-awesome.git",
+                "reference": "75823cacdc5a2b34befa423b390432f5bef373b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/font-awesome/zipball/75823cacdc5a2b34befa423b390432f5bef373b5",
+                "reference": "75823cacdc5a2b34befa423b390432f5bef373b5",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "styles": [
+                        "css/all.css"
+                    ],
+                    "files": [
+                        "css/all.min.css",
+                        "webfonts/*"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "CC-BY-4.0",
+                "MIT",
+                "OFL-1.1"
+            ],
+            "description": "Font Awesome, the iconic SVG, font, and CSS framework.",
+            "support": {
+                "issues": "https://github.com/components/font-awesome/issues",
+                "source": "https://github.com/components/font-awesome/tree/6.2.0"
+            },
+            "time": "2022-09-08T05:14:26+00:00"
+        },
+        {
+            "name": "components/jquery",
+            "version": "3.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/jquery.git",
+                "reference": "6cf38ee1fd04b6adf8e7dda161283aa35be818c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/jquery/zipball/6cf38ee1fd04b6adf8e7dda161283aa35be818c3",
+                "reference": "6cf38ee1fd04b6adf8e7dda161283aa35be818c3",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "jquery.js"
+                    ],
+                    "files": [
+                        "jquery.min.js",
+                        "jquery.min.map",
+                        "jquery.slim.js",
+                        "jquery.slim.min.js",
+                        "jquery.slim.min.map"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "JS Foundation and other contributors"
+                }
+            ],
+            "description": "jQuery JavaScript Library",
+            "homepage": "http://jquery.com",
+            "support": {
+                "forum": "http://forum.jquery.com",
+                "irc": "irc://irc.freenode.org/jquery",
+                "issues": "https://github.com/jquery/jquery/issues",
+                "source": "https://github.com/jquery/jquery",
+                "wiki": "http://docs.jquery.com/"
+            },
+            "time": "2021-03-20T19:13:42+00:00"
+        },
+        {
+            "name": "datatables/datatables",
+            "version": "1.10.21",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DataTables/DataTables.git",
+                "reference": "83e59694a105225ff889ddfa0d723a3ab24fda78"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DataTables/DataTables/zipball/83e59694a105225ff889ddfa0d723a3ab24fda78",
+                "reference": "83e59694a105225ff889ddfa0d723a3ab24fda78",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, which will add advanced interaction controls to any HTML table.",
+            "homepage": "http://www.datatables.net/",
+            "support": {
+                "forum": "https://datatables.net/forums",
+                "source": "https://github.com/DataTables/DataTablesSrc/"
+            },
+            "time": "2020-05-21T10:08:44+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -973,6 +1198,115 @@
                 }
             ],
             "time": "2021-10-07T12:57:01+00:00"
+        },
+        {
+            "name": "iron-summit-media/startbootstrap-sb-admin-2",
+            "version": "v3.3.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BlackrockDigital/startbootstrap-sb-admin-2.git",
+                "reference": "49fbecb507c36e83de055bdd836ef2d03352300e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BlackrockDigital/startbootstrap-sb-admin-2/zipball/49fbecb507c36e83de055bdd836ef2d03352300e",
+                "reference": "49fbecb507c36e83de055bdd836ef2d03352300e",
+                "shasum": ""
+            },
+            "require": {
+                "components/bootstrap": ">=3.0",
+                "components/font-awesome": ">=4.0",
+                "datatables/datatables": ">=1.10",
+                "onokumus/metismenu": ">=2.0"
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "dist/js/sb-admin-2.js"
+                    ],
+                    "files": [
+                        "dist/css/sb-admin-2.css"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Miller",
+                    "email": "david@ironsummitmedia.com"
+                }
+            ],
+            "description": "SB Admin 2 is an open source, admin dashboard template for Bootstrap created by Start Bootstrap.",
+            "homepage": "https://github.com/davidtmiller",
+            "support": {
+                "issues": "https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/issues",
+                "source": "https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/tree/v3.3.7"
+            },
+            "time": "2016-07-25T20:49:41+00:00"
+        },
+        {
+            "name": "jeroennoten/laravel-adminlte",
+            "version": "v3.9.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeroennoten/Laravel-AdminLTE.git",
+                "reference": "881239e2071592da4fdc6ab0c31514d4e59e8aeb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeroennoten/Laravel-AdminLTE/zipball/881239e2071592da4fdc6ab0c31514d4e59e8aeb",
+                "reference": "881239e2071592da4fdc6ab0c31514d4e59e8aeb",
+                "shasum": ""
+            },
+            "require": {
+                "almasaeed2010/adminlte": "3.2.*",
+                "laravel/framework": ">=7.0",
+                "php": ">=7.2.5"
+            },
+            "require-dev": {
+                "orchestra/testbench": ">=4.0",
+                "phpunit/phpunit": ">=9.1",
+                "scrutinizer/ocular": "^1.9"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "JeroenNoten\\LaravelAdminLte\\AdminLteServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JeroenNoten\\LaravelAdminLte\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen Noten",
+                    "email": "jeroennoten@me.com"
+                }
+            ],
+            "description": "Easy AdminLTE integration with Laravel",
+            "keywords": [
+                "AdminLTE",
+                "admin",
+                "administrator",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/jeroennoten/Laravel-AdminLTE/issues",
+                "source": "https://github.com/jeroennoten/Laravel-AdminLTE/tree/v3.9.1"
+            },
+            "time": "2023-06-22T18:01:07+00:00"
         },
         {
             "name": "laravel/framework",
@@ -2253,6 +2587,52 @@
                 }
             ],
             "time": "2023-02-08T01:06:31+00:00"
+        },
+        {
+            "name": "onokumus/metismenu",
+            "version": "v3.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/onokumus/metismenu.git",
+                "reference": "b782c3d6470079611bbf29005c9a949ad1f6043f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/onokumus/metismenu/zipball/b782c3d6470079611bbf29005c9a949ad1f6043f",
+                "reference": "b782c3d6470079611bbf29005c9a949ad1f6043f",
+                "shasum": ""
+            },
+            "suggest": {
+                "components/jquery": ">=1.9"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Osman Nuri Okumus",
+                    "email": "onokumus@gmail.com",
+                    "homepage": "https://onokumus.com"
+                }
+            ],
+            "description": "A jQuery menu plugin",
+            "homepage": "https://github.com/onokumus/metisMenu",
+            "keywords": [
+                "JS",
+                "bootstrap",
+                "css",
+                "jquery",
+                "menu",
+                "plugin",
+                "web"
+            ],
+            "support": {
+                "issues": "https://github.com/onokumus/metisMenu/issues",
+                "source": "https://github.com/onokumus/metismenu/tree/v3.0.7"
+            },
+            "time": "2021-05-16T11:55:57+00:00"
         },
         {
             "name": "phpoption/phpoption",
